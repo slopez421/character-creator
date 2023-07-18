@@ -13,6 +13,13 @@ function CharacterForm() {
                 <option>Fighter</option>
                 <option>Barbarian</option>
             </select><br />
+            <select>
+                <option>Race</option>
+                <option>Goblin</option>
+                <option>Elf</option>
+                <option>Tiefling</option>
+                <option>Orc</option>
+            </select><br />
             <button type="submit">Submit</button>
         </form>
     )
