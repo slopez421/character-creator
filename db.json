@@ -1,0 +1,16 @@
+{
+    "characters": [
+    {
+        "id": 1,
+        "name": "Boblin",
+        "race": "Goblin",
+        "class": "Healer"
+    },
+    {
+        "id": 2,
+        "name": "Shelly Welly",
+        "race": "Elf",
+        "class": "Ranger"
+    }
+]
+}
