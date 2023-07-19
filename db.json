@@ -4,13 +4,15 @@
         "id": 1,
         "name": "Boblin",
         "race": "Goblin",
-        "class": "Healer"
+        "class": "Healer",
+        "hp": 25
     },
     {
         "id": 2,
         "name": "Shelly Welly",
         "race": "Elf",
-        "class": "Ranger"
+        "class": "Ranger",
+        "hp": 15
     }
-]
+    ]
 }
