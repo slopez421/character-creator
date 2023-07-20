@@ -48,6 +48,20 @@
       "race": "Elf",
       "archetype": "Barbarian",
       "id": 7
+    },
+    {
+      "name": "Finn",
+      "hp": "60",
+      "race": "Elf",
+      "archetype": "Barbarian",
+      "id": 8
+    },
+    {
+      "name": "Fix it Felix",
+      "hp": "22",
+      "race": "Elf",
+      "archetype": "Healer",
+      "id": 9
     }
   ]
 }

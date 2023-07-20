@@ -18,8 +18,8 @@ function handleAddCharacter(newCharacter) {
 }
 
    return (<div className="home">
-   <CharacterForm />
-   <CharacterContainer handleAddCharacter={handleAddCharacter} characters={characters}/>
+   <CharacterForm handleAddCharacter={handleAddCharacter}/>
+   <CharacterContainer characters={characters}/>
    </div>
    )
 }
