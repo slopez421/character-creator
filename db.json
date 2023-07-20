@@ -1,18 +1,53 @@
 {
-    "characters": [
+  "characters": [
     {
-        "id": 1,
-        "name": "Boblin",
-        "race": "Goblin",
-        "class": "Healer",
-        "hp": 25
+      "id": 1,
+      "name": "Boblin",
+      "race": "Goblin",
+      "class": "Healer",
+      "hp": 25
     },
     {
-        "id": 2,
-        "name": "Shelly Welly",
-        "race": "Elf",
-        "class": "Ranger",
-        "hp": 15
+      "id": 2,
+      "name": "Shelly Welly",
+      "race": "Elf",
+      "class": "Ranger",
+      "hp": 15
+    },
+    {
+      "name": "Rosie Posie",
+      "hp": "102",
+      "race": "Elf",
+      "archetype": "Ranger",
+      "id": 3
+    },
+    {
+      "name": "Finn",
+      "hp": "101",
+      "race": "Orc",
+      "archetype": "Barbarian",
+      "id": 4
+    },
+    {
+      "name": "Short and Tanky McGee",
+      "hp": "200",
+      "race": "Goblin",
+      "archetype": "Fighter",
+      "id": 5
+    },
+    {
+      "name": "Jesus",
+      "hp": "20",
+      "race": "Tiefling",
+      "archetype": "Healer",
+      "id": 6
+    },
+    {
+      "name": "Testing",
+      "hp": "102",
+      "race": "Elf",
+      "archetype": "Barbarian",
+      "id": 7
     }
-    ]
+  ]
 }

@@ -13,9 +13,13 @@ useEffect(() => {
    .then((characters) => setCharacters(characters))
 })
 
+function handleAddCharacter(newCharacter) {
+   return setCharacters([...characters, newCharacter])
+}
+
    return (<div className="home">
    <CharacterForm />
-   <CharacterContainer characters={characters}/>
+   <CharacterContainer handleAddCharacter={handleAddCharacter} characters={characters}/>
    </div>
    )
 }
