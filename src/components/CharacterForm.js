@@ -50,7 +50,7 @@ fetch("http://localhost:3000/characters", {
                 <option value="Gnome">Gnome</option>
                 <option value="Elf">Elf</option>
                 <option value="Tiefling">Tiefling</option>
-                <option value="Orc">Orc</option>
+                <option value="Half-Orc">Half-Orc</option>
             </select><br />
             <label>My name is ... </label><input type="text" name="name" value={formData.name} placeholder="Name..." onChange={handleChange}></input><br />
             <label>My HP is ... </label><input type="number" name="hp" value={formData.hp} placeholder="HP..." onChange={handleChange}></input><br />
