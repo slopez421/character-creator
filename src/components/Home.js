@@ -11,7 +11,7 @@ useEffect(() => {
    fetch('http://localhost:3000/characters')
    .then((r) => r.json())
    .then((characters) => setCharacters(characters))
-})
+}, [])
 
 function handleAddCharacter(newCharacter) {
    return setCharacters([...characters, newCharacter])

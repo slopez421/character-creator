@@ -2,8 +2,8 @@
   "characters": [
     {
       "id": 1,
-      "name": "Boblin",
-      "race": "Goblin",
+      "name": "Gerome",
+      "race": "Gnome",
       "class": "Healer",
       "hp": 25
     },
@@ -31,7 +31,7 @@
     {
       "name": "Short and Tanky McGee",
       "hp": "200",
-      "race": "Goblin",
+      "race": "Gnome",
       "archetype": "Fighter",
       "id": 5
     },

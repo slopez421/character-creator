@@ -47,7 +47,7 @@ fetch("http://localhost:3000/characters", {
             </select><br />
             <label>Is your character a...</label><select value={race} onChange={(e) => setRace(e.target.value)}>
                 <option value="Race">Race</option>
-                <option value="Goblin">Goblin</option>
+                <option value="Gnome">Gnome</option>
                 <option value="Elf">Elf</option>
                 <option value="Tiefling">Tiefling</option>
                 <option value="Orc">Orc</option>
