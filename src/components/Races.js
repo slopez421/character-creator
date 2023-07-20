@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from "react";
 
 function Races() {
-const [elf, setElf] = useState([])
+const [elf, setElf] = useState([]);
+const [gnome, setGnome] = useState([]);
 
 useEffect(() => {
         fetch("https://www.dnd5eapi.co/api/races/elf")
@@ -12,6 +13,15 @@ useEffect(() => {
      })
 }, [])
 
+useEffect(() => {
+    fetch("https://www.dnd5eapi.co/api/races/gnome")
+    .then((r) => r.json())
+    .then((gnomeData) => {
+        console.log(gnomeData)
+        setGnome(gnomeData)
+ })
+}, [])
+
     return <div className="races">
 
         <h1>Races</h1>
@@ -20,6 +30,12 @@ useEffect(() => {
         <p>Size: {elf.size}</p>
         {elf.size_description}
         <p>Languages: {elf.language_desc}</p>
+
+        <h3>Gnome</h3>
+        <p>Age: {gnome.age}</p>
+        <p>Size: {gnome.size}</p>
+        {gnome.size_description}
+        <p>Languages: {gnome.language_desc}</p>
     </div>
 }
 
