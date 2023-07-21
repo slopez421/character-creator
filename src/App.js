@@ -1,12 +1,29 @@
 import './App.css';
 import Home from './components/Home';
+import NavBar from './components/NavBar';
+import Races from './components/Races';
 import Archetypes from './components/Archetypes';
+import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 function App() {
   return (
     <div>
-        <h2>Nav Bar:  <p>Home | Races | Archetypes</p></h2>
-        <Home />
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/races">
+              <Races />
+            </Route>
+            <Route path="/archetypes">
+              <Archetypes />
+            </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
