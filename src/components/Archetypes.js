@@ -25,13 +25,13 @@ useEffect(() => {
     fetch("https://www.dnd5eapi.co/api/classes/ranger")
     .then((r) => r.json())
     .then((rangerData) => setRanger(rangerData))
-})
+}, [])
 
 useEffect(() => {
     fetch("https://www.dnd5eapi.co/api/classes/fighter")
     .then((r) => r.json())
     .then((fighterData) => setFighter(fighterData))
-})
+}, [])
 
     return <div className="archetypes">
         <h1>Archetypes</h1>
