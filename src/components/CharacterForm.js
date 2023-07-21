@@ -40,7 +40,7 @@ fetch("http://localhost:3000/characters", {
             <label>Is your character a... </label>
             <select value={archetype} onChange={(e) => setArchetype(e.target.value)}>
                 <option value="Archetype">Archetype</option>
-                <option value="Healer">Healer</option>
+                <option value="Cleric">Cleric</option>
                 <option value="Ranger">Ranger</option>
                 <option value="Fighter">Fighter</option>
                 <option value="Barbarian">Barbarian</option>

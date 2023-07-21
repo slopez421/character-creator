@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Gerome",
       "race": "Gnome",
-      "class": "Healer",
+      "class": "Cleric",
       "hp": 25
     },
     {
@@ -39,7 +39,7 @@
       "name": "Jesus",
       "hp": "20",
       "race": "Tiefling",
-      "archetype": "Healer",
+      "archetype": "Cleric",
       "id": 6
     },
     {
@@ -60,7 +60,7 @@
       "name": "Fix it Felix",
       "hp": "22",
       "race": "Elf",
-      "archetype": "Healer",
+      "archetype": "Cleric",
       "id": 9
     }
   ]
