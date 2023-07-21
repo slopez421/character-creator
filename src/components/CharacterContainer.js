@@ -4,7 +4,7 @@ import Card from "./Card";
 function CharacterContainer({characters}) {
 
 return <div className="container">
-    <h2>Character Container</h2>
+    <h2>Your Adventuring Party</h2>
     {characters.map((character) => {
         return <Card key={character.id} character={character} />
     })}

@@ -26,10 +26,6 @@ form {
   border-style: dashed;
 }
 
-.home {
-  border-style: dotted;
-}
-
 .card {
   text-align: center;
   border: black solid 1px;
@@ -38,6 +34,32 @@ form {
   height: 15rem;
   display: inline-grid;
   margin: 2rem 2rem;
-  box-shadow: 2px 2px rgb(99, 206, 103);
+  color: #09ac5a;
+  box-shadow: 2px 2px #09ac5a;
   border-radius: 5px;
+}
+
+nav {
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 34px;
+}
+
+a {
+  color: green;
+}
+
+a:visited {
+  color: #09ac5a;
+}
+
+a:hover {
+  color: rgb(9, 77, 3);
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding-left: 15%;
+  padding-right: 15%;
 }

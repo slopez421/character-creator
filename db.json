@@ -62,6 +62,13 @@
       "race": "Elf",
       "archetype": "Cleric",
       "id": 9
+    },
+    {
+      "name": "Whitney",
+      "hp": "200",
+      "race": "Elf",
+      "archetype": "Ranger",
+      "id": 10
     }
   ]
 }

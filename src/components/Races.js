@@ -64,8 +64,6 @@ useEffect(() => {
         <p>Size: {tiefling.size}</p>
         {tiefling.size_description}
         <p>Languages: {tiefling.language_desc}</p>
-
-
     </div>
 }
 
