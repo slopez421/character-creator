@@ -42,7 +42,7 @@ setFormData({
 
     return (
         <form onSubmit={handleSubmit}>
-            <label>Create A Character</label><br />
+            <h3>Create-A-Character</h3><br />
             <label>Is your character a... </label>
             <select value={archetype} onChange={(e) => setArchetype(e.target.value)}>
                 <option value="Archetype">Archetype</option>

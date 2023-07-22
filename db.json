@@ -1,20 +1,6 @@
 {
   "characters": [
     {
-      "id": 1,
-      "name": "Gerome",
-      "race": "Gnome",
-      "archetype": "Cleric",
-      "hp": 25
-    },
-    {
-      "id": 2,
-      "name": "Shelly Welly",
-      "race": "Elf",
-      "archetype": "Fighter",
-      "hp": 15
-    },
-    {
       "name": "Rosie Posie",
       "hp": "102",
       "race": "Elf",
@@ -22,10 +8,10 @@
       "id": 3
     },
     {
-      "name": "Draxus",
-      "hp": "36",
-      "race": "Tiefling",
-      "archetype": "Ranger",
+      "name": "Gerome",
+      "hp": "200",
+      "race": "Gnome",
+      "archetype": "Fighter",
       "id": 4
     }
   ]

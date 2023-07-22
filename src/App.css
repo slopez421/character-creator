@@ -90,10 +90,26 @@ input {
   padding-right: 20%;
 }
 
-.races h3 {
+.archetypes {
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h3 {
   color: green;
 }
 
-.races p {
+p {
   color: rgb(9, 77, 3)
+}
+
+h1 {
+  background-color: antiquewhite;
+}
+
+.card button {
+  height: 30px;
+  margin-top: 60%;
+  margin-left: 80%;
 }

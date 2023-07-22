@@ -17,9 +17,13 @@ function handleAddCharacter(newCharacter) {
    return setCharacters([...characters, newCharacter])
 }
 
+function onDeleteCharacter (deletedCharacter) {
+   const updatedCharacters = characters.filter((character) => character.id !== deletedCharacter.id)
+   return setCharacters(updatedCharacters)
+}
    return (<div className="home">
    <CharacterForm handleAddCharacter={handleAddCharacter}/>
-   <CharacterContainer characters={characters}/>
+   <CharacterContainer onDeleteCharacter={onDeleteCharacter} characters={characters}/>
    </div>
    )
 }
