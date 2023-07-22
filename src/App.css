@@ -22,10 +22,6 @@
   color: #61dafb;
 }
 
-form {
-  border-style: dashed;
-}
-
 .card {
   text-align: center;
   border: black solid 1px;
@@ -43,6 +39,7 @@ nav {
   text-align: center;
   font-family:'Courier New', Courier, monospace;
   font-size: 34px;
+  padding: 1%;
 }
 
 a {
@@ -62,4 +59,26 @@ a:hover {
   margin: auto;
   padding-left: 15%;
   padding-right: 15%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+  text-align: left;
+  font-size: larger;
+  font-family:'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  border: black solid 1px;
+  padding: 2%;
+}
+
+button { 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+select {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+  font-family: 'Courier New', Courier, monospace;
 }
