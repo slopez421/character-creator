@@ -31,7 +31,13 @@ fetch("http://localhost:3000/characters", {
     body: JSON.stringify(formData)
 })
 .then((r) => r.json())
-.then((newCharacter) => handleAddCharacter(newCharacter))
+.then((newCharacter) => {handleAddCharacter(newCharacter)
+setFormData({
+    name: "",
+    hp: 0,
+    race: setRace("race"),
+    archetype: setArchetype("archetype")
+})})
 }
 
     return (

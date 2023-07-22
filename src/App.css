@@ -83,3 +83,17 @@ select {
 input {
   font-family: 'Courier New', Courier, monospace;
 }
+
+.races {
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.races h3 {
+  color: green;
+}
+
+.races p {
+  color: rgb(9, 77, 3)
+}

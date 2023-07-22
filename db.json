@@ -22,10 +22,10 @@
       "id": 3
     },
     {
-      "name": "Janitza",
-      "hp": "65",
-      "race": "Gnome",
-      "archetype": "Cleric",
+      "name": "Draxus",
+      "hp": "36",
+      "race": "Tiefling",
+      "archetype": "Ranger",
       "id": 4
     }
   ]

@@ -40,7 +40,7 @@ useEffect(() => {
 
     return <div className="races">
 
-        <h1>Races</h1>
+        <span><h1>Races</h1></span>
         <h3>Elf</h3>
         <p>Age: {elf.age}</p>
         <p>Size: {elf.size}</p>
