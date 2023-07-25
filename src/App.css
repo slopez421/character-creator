@@ -64,12 +64,12 @@ a:hover {
 }
 
 form {
+  padding-left: 40%;
   text-align: left;
   font-size: larger;
   font-family:'Courier New', Courier, monospace;
   background-color: antiquewhite;
   border: black solid 1px;
-  padding: 2%;
 }
 
 button { 
