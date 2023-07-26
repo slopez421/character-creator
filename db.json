@@ -5,14 +5,21 @@
       "hp": "102",
       "race": "Elf",
       "archetype": "Ranger",
-      "id": 3
+      "id": 1
     },
     {
       "name": "Gerome",
       "hp": "200",
       "race": "Gnome",
       "archetype": "Fighter",
-      "id": 4
+      "id": 1
+    },
+    {
+      "name": "Amazonia",
+      "hp": "404",
+      "race": "Half-Orc",
+      "archetype": "Ranger",
+      "id": 3
     }
   ]
 }
