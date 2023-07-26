@@ -16,3 +16,7 @@ Once the user inputs their character's information using the Create-A-Character 
 If the user decides to remove that character or simply made a mistake during creation, they can also click the trash icon and delete that character from their adventuring party. 
 
 <img src="/src/readme_images/delete.gif" alt="gif depicting usage of the delete button" />
+
+##### Credits
+
+[D&D 5E API](https://www.dnd5eapi.co/)
