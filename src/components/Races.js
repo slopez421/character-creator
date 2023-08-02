@@ -34,7 +34,7 @@ useEffect(() => {
     fetch("https://www.dnd5eapi.co/api/races/tiefling")
     .then((r) => r.json())
     .then((tieflingData) => {
-        setTiefling(tieflingData)
+    setTiefling(tieflingData)
  })
 }, [])
 
