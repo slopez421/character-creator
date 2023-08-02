@@ -18,7 +18,7 @@ function Card({character, onDeleteCharacter}) {
         Race: {race}<br />
         Archetype: {archetype}<br />
         HP: {hp}</h4>
-        <button onClick={handleClick}><BsTrash3 /></button>
+        <button className="trash" onClick={handleClick}><BsTrash3 /></button>
     </div>
 }
 

@@ -1,24 +1,24 @@
 {
   "characters": [
     {
-      "name": "Rosie Posie",
-      "hp": "102",
+      "name": "Finn",
+      "hp": "20",
       "race": "Elf",
-      "archetype": "Ranger",
+      "archetype": "Cleric",
       "id": 1
     },
     {
-      "name": "Gerome",
-      "hp": "200",
-      "race": "Gnome",
-      "archetype": "Fighter",
-      "id": 1
-    },
-    {
-      "name": "Amazonia",
-      "hp": "404",
+      "name": "Sally",
+      "hp": "23",
       "race": "Half-Orc",
       "archetype": "Ranger",
+      "id": 2
+    },
+    {
+      "name": "Barbz",
+      "hp": "100",
+      "race": "Tiefling",
+      "archetype": "Barbarian",
       "id": 3
     }
   ]

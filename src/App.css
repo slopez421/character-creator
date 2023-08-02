@@ -27,8 +27,8 @@
   border: black solid 1px;
   background-color: antiquewhite;
   padding: 1rem;
-  width: 12rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   display: inline-grid;
   margin: 2rem 2rem;
   color: #09ac5a;
@@ -77,6 +77,13 @@ button {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.trash {
+  height: 30px;
+  margin-top:10%;
+  margin-left: 80%;
+}
+
+
 select {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -107,10 +114,4 @@ p {
 
 h1 {
   background-color: antiquewhite;
-}
-
-.card button {
-  height: 30px;
-  margin-top: 60%;
-  margin-left: 80%;
 }
