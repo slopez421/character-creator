@@ -13,14 +13,14 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
-            <Route path="/home">
-              <Home />
-            </Route>
             <Route path="/races">
               <Races />
             </Route>
             <Route path="/archetypes">
               <Archetypes />
+            </Route>
+            <Route path="/">
+              <Home />
             </Route>
         </Switch>
       </BrowserRouter>
